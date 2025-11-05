@@ -71,6 +71,20 @@ body {
     margin: 0rem 3rem 1rem 3rem;
 }
 
+.banner {
+    background-image: url('../images/Spears_Building.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 25em;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    margin-top:10em;
+}
+
 .cicdmargin {
     margin-top: 1rem;
     color: #FE5C00;
