@@ -1,11 +1,33 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="col-sm-12 row aurow sectionheader">
+    <div class="AzureHeaderText">What do we know?</div>
 </div>
-//test
+@*About us image and also the company history and mission paragraphs*@
+<div class="row aurow">
+    <div class="col-sm-6">
+        <div class="azureimage">
+            <img src="~/images/DevopsAzureimage (1).jpg" />
+        </div>
+    </div>
+    <div class="col-sm-6">
+
+        <h4 class="azuremargin">Azure Devops</h4>
+        <div class="azuretext">
+            Throughout this course, I gained hands-on experience using Azure DevOps to manage code, automate builds, and
+            streamline deployments. I learned how to create and configure CI/CD pipelines that automatically compile and test
+            code with every commit, ensuring reliability and consistency. Azure DevOps also helped me understand how
+            development teams collaborate through repositories, track progress with boards, and maintain efficient release cycles.
+            These experiences reflect the same workflows and responsibilities found in real-world DevOps internships and
+            entry-level engineering roles, where automation and teamwork are key to successful software delivery.
+        </div>
+        <h4 class="cicdmargin">CI/CD</h4>
+        <div class="cicd">
+            Through Azure DevOps pipelines, I practiced continuous integration and deployment — learning how automated testing and build stages help maintain reliable software delivery.
+        </div>
+    </div>
+</div>

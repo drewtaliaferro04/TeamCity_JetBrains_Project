@@ -20,3 +20,63 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+.aurow {
+    text-align: center;
+}
+
+.sectionheader {
+    color: #ffffff; /* White text */
+    background-color: #FE5C00; /* OSU orange */
+    margin: 3rem 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.azureimage {
+    height: 27rem;
+    display: flex;
+    justify-content: right;
+    padding-top: 1em ;
+}
+
+.AzureHeaderText {
+    font-size: 5em;
+    text-align: center;
+    color: #ffffff
+}
+
+.azuremargin {
+    margin-top: 1rem;
+    color: #FE5C00;
+    font-size: 2em;
+}
+
+.azuretext {
+    margin: 0rem 3rem 1rem 3rem;
+}
+
+.cicdmargin {
+    margin-top: 1rem;
+    color: #FE5C00;
+    font-size: 2em;
+}
+
+.cicd {
+    margin: 0rem 3rem 1rem 3rem;
+}
