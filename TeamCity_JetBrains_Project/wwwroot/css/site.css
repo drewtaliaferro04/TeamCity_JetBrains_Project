@@ -97,17 +97,34 @@ body {
 
 .wcumargin {
     margin: 5rem 0rem 3rem 0rem;
-    color: #6F4E37;
+    color: #ffffff;
     font-size: 3em;
 }
 
 .wcuheader {
     text-align: center;
-    color: #6F4E37;
-    font-size: 1.75em;
+    color: #ffffff;
+    font-size: 2.25em;
     margin: 2rem 0rem 2rem 0rem;
 }
 
 .wcutext {
     text-align: center;
+}
+
+.Textbg {
+    background-color: #FE5C00;
+    margin: 3rem 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    text-align: center;
+    padding: 3rem ;
+}
+
+h4 {
+    font-size: 5em ;
 }
