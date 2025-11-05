@@ -80,3 +80,20 @@ body {
 .cicd {
     margin: 0rem 3rem 1rem 3rem;
 }
+
+.wcumargin {
+    margin: 5rem 0rem 3rem 0rem;
+    color: #6F4E37;
+    font-size: 3em;
+}
+
+.wcuheader {
+    text-align: center;
+    color: #6F4E37;
+    font-size: 1.75em;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.wcutext {
+    text-align: center;
+}
