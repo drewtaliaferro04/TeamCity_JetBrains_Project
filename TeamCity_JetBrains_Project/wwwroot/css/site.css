@@ -128,3 +128,32 @@ body {
 h4 {
     font-size: 5em ;
 }
+
+/* --- Custom Navbar Styling --- */
+.navbar {
+    background-color: #ffffff !important; /* Keep it white */
+    border-bottom: 3px solid #ff7f27; /* orange accent line */
+    padding-top: 1rem;
+    padding-bottom: 2rem; /* makes header taller */
+}
+
+.navbar-brand {
+    color: #ff7f27 !important; /* orange brand text */
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    color: #333 !important; /* normal dark text */
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: #ff7f27 !important; /* orange hover */
+    text-decoration: underline;
+}
+
+/* optional: highlight the active link */
+.nav-link.active {
+    border-bottom: 2px solid #ff7f27;
+}
